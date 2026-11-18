@@ -1,0 +1,8 @@
+node_modules
+dist
+dist-ssr
+qrcode
+.env
+.env.local
+*.log
+.DS_Store

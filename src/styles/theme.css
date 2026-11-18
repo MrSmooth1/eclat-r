@@ -1,0 +1,33 @@
+/* Thème Éclat Résidences — valeurs issues du modèle choisi */
+:root {
+  --ivory: #faf8f3;
+  --ivory-2: #f4eee4;
+  --cream: #f1e9dd;
+  --white: #fffefb;
+  --black: #161513;
+  --black-2: #1f1d1a;
+  --gold: #b78a39;
+  --gold-2: #d5ae67;
+  --gold-text: #8a6421;      /* doré foncé lisible sur fond clair (contraste AA) */
+  --gold-light: #e7c57f;     /* doré clair lisible sur fond noir */
+  --line: #e6d8c2;
+  --ink: #1b1916;
+  --text: #4d473f;
+  --muted: #6b6257;
+  --success: #24704f;
+  --danger: #a6332a;
+
+  --font-serif: Georgia, 'Times New Roman', Times, serif;
+  --font-sans: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, Helvetica, sans-serif;
+
+  --radius: 7px;
+  --radius-lg: 10px;
+  --shadow: 0 14px 45px rgba(44, 36, 24, 0.08);
+  --shadow-dark: 0 12px 35px rgba(24, 18, 12, 0.18);
+  --gold-gradient: linear-gradient(110deg, #b68432, #d4ab62 55%, #a97624);
+
+  --container: 1190px;
+  --gutter: 22px;
+  --header-h: 88px;
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+}

@@ -1,0 +1,29 @@
+{
+  "name": "eclat-residences-site",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Site vitrine Éclat Résidences — React + Vite, formulaires envoyés par e-mail via un service de formulaires (Web3Forms ou Formspree).",
+  "type": "module",
+  "engines": {
+    "node": ">=20.19"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && vite build --ssr src/entry-server.jsx --outDir dist-ssr && node scripts/prerender.js",
+    "build:spa": "vite build",
+    "preview": "vite preview",
+    "test": "node --test tests/*.test.js",
+    "qrcode": "node scripts/generate-qrcode.js"
+  },
+  "dependencies": {
+    "lucide-react": "^0.474.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router": "^7.6.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.0",
+    "qrcode": "^1.5.4",
+    "vite": "^7.0.0"
+  }
+}
